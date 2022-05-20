@@ -1,0 +1,10 @@
+/node_modules
+
+# IMAGES
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+.env
+yarn.lock
