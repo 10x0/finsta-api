@@ -13,7 +13,7 @@ const router = Router();
 
 router
 	.route('/')
-	.get(authenticated, getAll)
+	.get(getAll)
 	.post(authenticated, upload.single('media'), create);
 router.route('/:id').get(getSingle).put(update).delete(remove);
 
